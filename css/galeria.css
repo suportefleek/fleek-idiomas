@@ -131,8 +131,11 @@ a:active::after {
 #photos {
     width: 80%;
     height: auto;
+    margin: 0 auto; /* Centraliza horizontalmente */
     position: absolute;
     top: 10%;
+    left: 0; 
+    right: 0; 
 }
 
 #photo-gallery {
