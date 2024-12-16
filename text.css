@@ -1,0 +1,23 @@
+/* Centraliza o texto e ajusta para boa leitura */
+body {
+    font-family: Arial, sans-serif; /* Fonte legível */
+    font-size: 1.2rem; /* Tamanho razoável para leitura */
+    line-height: 1.6; /* Espaçamento entre linhas para legibilidade */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamento padrão */
+    display: flex; /* Usa flexbox para centralização */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Garante altura mínima da tela */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Adiciona espaço ao redor do texto */
+    box-sizing: border-box; /* Inclui padding no tamanho total */
+    background-color: #f4f4f9; /* Fundo suave para contraste */
+    color: #333; /* Texto com boa visibilidade */
+}
+
+/* Ajusta a largura do conteúdo para telas maiores */
+body p {
+    max-width: 600px; /* Limita a largura do texto */
+    margin: auto; /* Centraliza dentro do contêiner */
+}
